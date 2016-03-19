@@ -5,6 +5,10 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 {% include _head.html %}
+
+<link rel="stylesheet" href="/assets/galleria/themes/miniml/galleria.miniml.css">
+<script src="/assets/galleria/themes/miniml/miniml.config.js"></script>
+
 </head>
 
 <body class="post-index">
@@ -26,7 +30,7 @@ class="galleria">
 {% for c in page.categories %}
 	{% for p in site.categories[c] %}	
 			{% if p.image.feature %}
-			<img src="{{ site.url }}/images/{{ p.image.feature }}"/>  
+			<img src="/images/{{ p.image.feature }}"/>  
 			{% endif %}
 	{% endfor %}
 {% endfor %}

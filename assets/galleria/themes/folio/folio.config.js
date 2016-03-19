@@ -7,7 +7,6 @@
 				swipe: true,*/
 				responsive: true,
 				debug: true,
-
 				_center: false
 		});
     Galleria.loadTheme('/assets/galleria/themes/folio/galleria.folio.js');
