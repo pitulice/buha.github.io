@@ -12,35 +12,29 @@
 {% include _browser-upgrade.html %}
 
 {% include _navigation.html %}
+<!-- afișează bannerul ultimelor postări -->
+<div class="galleria">
+	<img src="/images/{{ page.image.feature }}"/>  
+{% for post in site.posts limit:5 %}
+	{% if post.image.feature %}
+	<img src="{{ site.url }}/images/{{ post.image.feature }}"/>  
+	{% endif %}
+{% endfor %}
+</div>
 
-{% if page.image.feature %}
-  <div class="image-wrap">
-  <img src=
-    {% if page.image.feature contains 'http' %}
-      "{{ page.image.feature }}"
-    {% else %}
-      "{{ site.url }}/images/{{ page.image.feature }}"
-    {% endif %}
-  alt="{{ page.title }} feature image">
-  {% if page.image.credit %}
-    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
-  {% endif %}
-  </div><!-- /.image-wrap -->
-{% endif %}
-
-<div id="main" role="main">
+<div id="main" role="main"> 
   <div class="article-author-side">
     {% include _author-bio.html %}
   </div>
   <div id="index">
-    <h3><a href="{{ site.url}}/posts/">Recent Posts</a></h3>
-    {% for post in site.posts limit:5 %}
+    <h3>Recent Posts</h3>
+    {% for post in site.posts limit:5 %}    
     <article>
       {% if post.link %}
-        <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></a></h2>
+        <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
       {% else %}
         <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-        <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+        <p>{{ post.excerpt | strip_html | truncate: 250 }}</p>
       {% endif %}
     </article>
     {% endfor %}
@@ -54,6 +48,6 @@
 </div><!-- /.footer-wrap -->
 
 {% include _scripts.html %}
-
+<script src="/assets/galleria/themes/miniml/miniml.config.js"></script>
 </body>
 </html>

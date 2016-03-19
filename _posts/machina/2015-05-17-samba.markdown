@@ -1,0 +1,113 @@
+---
+layout: post
+title: "Samba Sharing Setup"
+modified:
+categories: machina
+excerpt: Guide to setting up a Samba file share between computers at home
+tags: []
+image:
+  feature:
+date: '2013-07-07 17:58:00 +0200'
+---
+**Samba** is a reimplementation of the SMB/CIFS networking protocol done by [Andrew Tridgell](https://en.wikipedia.org/wiki/Andrew_Tridgell)(the story is quite interesting). It provides file and printer sharing between Unix and Windows systems as an alternative to [NFS](https://wiki.archlinux.org/index.php/NFS).
+
+In the following I'll show the steps I had forgone to configure a share between two computers in my house. The commands are specific to Arch Linux.
+
+
+## Server
+
+Install the required packages (samba is required only by the server):
+
+>\# pacman -S samba smbclient
+
+After installation you might want to look into the default configuration file located at /etc/samba/smb.conf.default and make your own at /etc/samba/smb.conf starting with the default one. However I'll paste here a simpler configuration file I used for myself with some comments from the default one and some added by me:  
+
+><pre>
+# ========= Global configuration ===============
+[global]
+# workgroup = NT-Domain-Name or Workgroup-Name
+workgroup = MY_WORKGROUP
+# allow only the hosts starting with the address:
+hosts allow = 192.168.1.
+# if you want to automatically load your printer list rather
+# than setting them up individually then you'll need this
+printcap name = /etc/printcap
+load printers = yes
+# this tells Samba to use a separate log file for each machine
+# that connects
+log file = /var/log/samba/%m.log
+# Put a capping on the size of the log files (in Kb).
+max log size = 50
+# Security mode. Most people will want user level security. See
+# security_level.txt for details.
+security = user
+map to guest = Bad Password
+# ========== Share Definitions =================
+# NOTE: If you have a BSD-style print system there is no need to
+# specifically define each individual printer
+[printers]
+comment = All Printers
+path = /var/spool/samba
+browseable = no
+# Set public = yes to allow user 'guest account' to print
+guest ok = no
+writable = no
+printable = yes
+[Share_name]
+path = /home/user/Public
+writeable = yes
+# permissions for created files/folders
+create mask = 0770
+force create mode = 0770
+# prevent multiple users from writing to a file
+locking = yes</pre>
+
+
+The configuration can be of course modified for your needs but I just wanted to share a working one for the newbies like me who want to configure a very simple Samba share.  
+
+Start the daemons provided by Samba (also call with enable instead of start to load them at startup):
+
+>\# systemctl start smbd nmbd
+
+
+Add a Samba password for your user:  
+
+>\# smbpasswd -a
+
+## Client
+Install smbclient and smbnetfs (needed for auto-mounting of the remote filesystem):
+
+>\# pacman -S smbclient smbnetfs
+
+Edit /etc/fuse.conf and add append:
+
+>user_allow_other
+
+
+Start the fuse kernel module:
+
+>\# modprobe fuse
+
+
+Start the smbnetfs daemon:
+
+>\# systemctl start smbnetfs 
+
+
+Install the file manager integration for nautilus/nemo (KDE's Dolphin has it built-in): 
+
+>\# pacman -S gvfs-smb
+
+
+Now everything is installed and configured. Just type in the address bar of the file manager to access the folders and printers you shared: 
+
+>smb://servername
+
+
+Or, you may just click on the Network shortcut in Nemo/Nautilus and follow the path.
+
+
+Results 
+
+ 
+  Overall, I'm pretty happy with Samba, certainly happier than with NFS. 

@@ -8,7 +8,7 @@ body {
 	color: $text-color;
 }
 
-/*
+/* 
    Header
    ========================================================================== */
 
@@ -79,7 +79,7 @@ body {
 			white-space: nowrap;
 			border-bottom: 0 solid transparent;
 		}
-		a {
+		a { 
 			display: block;
 			padding: 10px 0;
 			decoration: none;
@@ -165,11 +165,11 @@ $button-size: 1.5rem;
 	}
 }
 // Style the toggle menu link and hide it
-.nav .navtoggle {
+.nav .navtoogle {	
 	@include font-rem(18);
 	font-weight: normal;
 	background-color: $black;
-	color: $white;
+	color: $white;	
 	border: none;
 	cursor: pointer;
 	@media #{$small} {
@@ -180,7 +180,7 @@ $button-size: 1.5rem;
 	border: none;
 	background: none;
 }
-.navtoggle i {
+.navtoogle i {
 	z-index:-1;
 }
 .icon-menu {
@@ -206,7 +206,7 @@ $button-size: 1.5rem;
 	}
 }
 // Displaying the menu when the user has clicked on the button
-.js .nav .active + ul {
+.js .nav .active + ul {		
 	max-height: 30em;
 	overflow: hidden;
 	-webkit-transition: max-height .4s;
@@ -229,20 +229,18 @@ $button-size: 1.5rem;
 	.post,
 	.page {
 		@include container;
-		@include grid(12,10);
+		@include last;
+		@include grid(12,9);
 		@include prefix(12,1);
 		@include suffix(12,1);
 		margin-bottom: 2em;
 		@media #{$small} {
-			@include grid(12,8);
+			@include grid(12,6);
 			@include prefix(12,0);
 			@include suffix(12,0);
 		}
-		@media #{$large} {
-		@include grid(12,6);
-		}
 		@media #{$x-large} {
-			@include grid(12,5);
+			@include grid(12,4.5);
 		}
 	}
 }
@@ -255,15 +253,12 @@ $button-size: 1.5rem;
 	@include suffix(12,1);
 	margin-bottom: 2em;
 	@media #{$small} {
-		@include grid(12,8);
+		@include grid(12,6);
 		@include prefix(12,0);
 		@include suffix(12,0);
 	}
-	@media #{$large} {
-		@include grid(12,6);
-	}
 	@media #{$x-large} {
-		@include grid(12,5);
+		@include grid(12,4.5);
 	}
 	h3 {
 		margin: 0;
@@ -392,7 +387,6 @@ $button-size: 1.5rem;
 		p,
 		.author-social {
 			display: block;
-			max-width: 125px;
 		}
 		h3 {
 			margin-top: 10px;
@@ -400,6 +394,7 @@ $button-size: 1.5rem;
 		}
 		p {
 			margin-bottom: 20px;
+			max-width: 250px;
 		}
 		.author-social {
 			margin-bottom: 5px;
@@ -410,7 +405,7 @@ $button-size: 1.5rem;
 		.bio-photo,
 		p,
 		.author-social {
-			max-width: 150px;
+			max-width: 250px;
 		}
 	}
 	@media #{$x-large} {
@@ -440,17 +435,16 @@ $button-size: 1.5rem;
 		.bio-photo,
 		p,
 		.author-social {
-			max-width: 150px;
+			max-width: 250px;
 		}
 	}
 }
 
 /* Post content wrapper */
 .article-wrap {
+	text-align:justify;
 	// Dotted line underlines for links
 	p > a,
-	p > em > a,
-	p > strong > a,
 	li > a {
 		text-decoration: underline;
 	}
@@ -492,6 +486,7 @@ $button-size: 1.5rem;
 		margin: 0 0 1px 0;
 		padding: 0;
 		font-family: $heading-font;
+		text-align: left;
 		list-style-type: none;
 		&:last-child {
 			border-bottom-width: 0;
@@ -556,7 +551,7 @@ $button-size: 1.5rem;
 	margin: 1em 0;
 	li {
 		display: inline;
-		a {
+		a { 
 			border-bottom: 0 solid transparent;
 			&:hover {
 				border-bottom: 0 solid transparent;
@@ -582,7 +577,7 @@ $button-size: 1.5rem;
   li {
   	display: inline-block;
   }
-  $social:
+  $social: 
   (facebook, $facebook-color),
   (flickr, $flickr-color),
   (foursquare, $foursquare-color),
@@ -598,7 +593,7 @@ $button-size: 1.5rem;
   @each $socialnetwork, $color in $social {
     .#{$socialnetwork} {
       background: $color;
-    }
+    }    
   }
   a {
 	  display: block;
@@ -642,7 +637,7 @@ $button-size: 1.5rem;
 	h4,
 	h5,
 	h6,
-	span {
+	span { 
 		@include font-rem(14);
 	}
 	footer {
@@ -687,7 +682,7 @@ $button-size: 1.5rem;
 	}
 }
 
-/*
+/* 
    Browser upgrade alert
    ========================================================================== */
 
@@ -707,7 +702,7 @@ $button-size: 1.5rem;
 		}
 	}
 }
-/*
+/* 
    Google search form
    ========================================================================== */
 

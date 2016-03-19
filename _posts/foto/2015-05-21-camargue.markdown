@@ -1,0 +1,58 @@
+---
+layout: post
+title: "Camargue: culture and industry next to pink flamingo's nest"
+modified:
+categories: foto
+excerpt: Images from Arles, Saintes Maries de la Mer and Salin de Giraud, Camargue, Southern France 
+tags: ["arles", "saintes maries de la mer", "street", "flamingo"]
+comments: true
+image:
+  feature:
+date: 2015-05-21T20:47:30+02:00
+---
+{% include _toc.html %}
+
+## Arles
+The gate to the land of pink flamingo is Arles, a city of culture and art. A large Roman amphitheatre still in use for bullfighting, Constantine's thermal baths, Roman open-air theatre, beautiful churches and narrow streets carry you to past times.
+
+<div class="galleria">
+	<img src="/images/camargue/0000.jpg"/>
+	<img src="/images/camargue/0001.jpg"/>
+	<img src="/images/camargue/0002.jpg"/>
+	<img src="/images/camargue/0004.jpg"/>
+	<img src="/images/camargue/0005.jpg"/>
+	<img src="/images/camargue/0009.jpg"/>
+	<img src="/images/camargue/0022.jpg"/>
+</div>
+
+Vincent Van Gogh himself lived and painted in Arles some of his most notorious paintings. You can feel the artistic vibe of the city right in the street: painters, student photographers carrying film cameras and all sort of craftsmen will show up at every corner. 
+
+<div class="galleria">
+	<img src="/images/camargue/0007.jpg"/>
+	<img src="/images/camargue/0003.jpg"/>
+	<img src="/images/camargue/0008.jpg"/>
+</div>
+
+## Saintes Maries de la Mer
+Some 40km to the South, where the marshy land meets the sea, lies Saintes Maries de la Mer, a small touristic village with Mediterranean feel. Our visit was in April so the smell from those Mediterranean plants was incredible. The central plaza is marked by a church featuring a somewhat peculiar architecture. Even more peculiar, the church has an inscription on its walls saying that it is under the protection of Saint Sara, the protector of gypsies. Right outside of its walls, gypsy women make money by fooling naive tourists with their future telling trickery. The gypsy music in this village is amazing though: restaurants are hosts to authentic flamenco artists that sing with that gypsy characteristic pathos. Sourrounded by lakes and swamps, the wild character of the place unveils at night when the unearthly songs of many exotic creatures blend. The pink flamingo sound is probably a dissapointment for those who are familiar with goose sounds but their body shape and elegance, thin legs, long neck and flight posture are a sheer joy to look at. And all this, at just a few steps away from the village. 
+
+<div class="galleria">
+	<img src="/images/camargue/0010.jpg"/>
+	<img src="/images/camargue/0011.jpg"/>
+	<img src="/images/camargue/0012.jpg"/>
+	<img src="/images/camargue/0013.jpg"/>
+	<img src="/images/camargue/0014.jpg"/>
+	<img src="/images/camargue/0015.jpg"/>
+	<img src="/images/camargue/0016.jpg"/>
+</div>
+
+## Bike trip to Salin de Giraud
+Following the sea shore there is a bike route that goes all the way to the East through Lac du Fangassier, a paradise for birdwatching due to the large number of species that spend their summer there, ending at Salin de Giraud at about 30km from the starting place. The East part of Camargue is partly industrialised and partly wild. The wild places are most notably Plage de Beauduc and Place de Piemanson the latter being the last place in Western Europe (as of 2015) where it is still legal to camp in the wild. But in and around Salin de Giraud there is a huge industry of salt and more recently of rice, and I think the largest percentage of the salt comercialised in France is being produced here. Our East-West return trip from Salin de Giraud was a pain due to heavy wind (luckily from North) and due to strong Sun that managed to peel our skin off in April already. But we treated ourselves with a nice dish at the restaurant that evening to conclude an otherwise great trip in Camargue. 
+
+<div class="galleria">
+	<img src="/images/camargue/0017.jpg"/>
+	<img src="/images/camargue/0018.jpg"/>
+	<img src="/images/camargue/0019.jpg"/>
+	<img src="/images/camargue/0021.jpg"/>
+	<img src="/images/camargue/0020.jpg"/>
+</div>
