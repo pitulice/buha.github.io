@@ -11,7 +11,7 @@ image:
 date: 2016-03-13
 ---
 <div class="galleria">
-	<img src="/images/inanimate/0001.jpg"/>
-	<img src="/images/inanimate/0002.jpg"/>
-	<img src="/images/inanimate/0003.jpg"/>
+	<img src="/images/inanimate/0001.jpg" data-title="Limone di Sicilia">
+	<img src="/images/inanimate/0002.jpg" data-title="Măcin">
+	<img src="/images/inanimate/0003.jpg" data-title="Paulownia">
 </div>

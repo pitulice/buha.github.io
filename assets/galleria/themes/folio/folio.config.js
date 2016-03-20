@@ -11,7 +11,7 @@
 		});
     Galleria.loadTheme('/assets/galleria/themes/folio/galleria.folio.js');
   	Galleria.run('.galleria');
-/*
+
 		Galleria.ready(function() {
         var thumbcont=this.$('thumbnails-container'),
         thumb=this.$('thumbnails-list'),
@@ -30,4 +30,4 @@
             }
         });
         $(window).on('resize',center);
-    	});*/
+    	});

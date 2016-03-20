@@ -1,5 +1,5 @@
 	Galleria.loadTheme('/assets/galleria/themes/azur/galleria.azur.min.js'); 
-  Galleria.configure({ 
+  /*Galleria.configure({ 
 		// generic	 	
 		transition: 'fade',
 	  transitionSpeed: 500,
@@ -30,6 +30,6 @@
         prev: 'Previous image',
         showing_image: 'Showing image %s of %s'
     }
-  }); 
+  });*/ 
   Galleria.run('.galleria'); 
 
