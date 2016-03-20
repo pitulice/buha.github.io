@@ -8,7 +8,7 @@
 		// theme specific
 		transition: "pulse",
     transitionSpeed: 200,
-    imageCrop: false,
+    imageCrop: 'landscape',
     thumbCrop: true,
     carousel: false,
 		fullscreenDoubleTap: true,
