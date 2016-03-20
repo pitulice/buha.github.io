@@ -8,17 +8,17 @@ tags: ["evoluționism", "darwin", "biblia", "fosile", "vârsta pământului", "a
 comments: true
 image:
   feature: banner-evolutionism.jpg
-  thumb: banner-evolutionism-thumb.jpg
-date: 2014-04-06T18:47:52+02:00
+  thumb: 
+date: 2014-04-06
 ---
 
 {% include _toc.html %}
 
 Prin acest articol doresc să argumentez de ce cred și susțin Teoria Evoluției a lui Darwin, creștinului sceptic la știință. Singura condiție pentru creștinul cititor e să fie dispus să urmărească niște argumente, inclusiv matematice, lăsându-și pentru câteva minute prejudecățile la o parte. Voi începe cu 2 premise cât se poate de elementare omului educat al epocii în care trăim dar care e posibil să nu fie evidente pentru creștinul cititor așa că vor fi și argumentate. Urmează apoi argumentația compusă din 2 argumente simple, care se bazează pe premisele deja expuse, pentru a demonstra că selecția naturală este procesul prin care omul și celelalte viețuitoare au evoluat la stadiul de acum.
 
-##Premise și noțiuni fundamentale
+# Premise și noțiuni fundamentale
 
-###Premisa 1: Vârsta Terrei e de ordinul miliardelor și nu a miilor de ani
+## Premisa 1: Vârsta Terrei e de ordinul miliardelor și nu a miilor de ani
 
 Creștinul tipic cu care am personal de-a face se încăpățânează să afirme că Pământul are 6000 de ani vechime și că a fost creat miraculos de Dumenzeu într-o zi deși există un consens în lumea științifică de mai bine de 100 de ani că vârsta Pământului e de ordinul miliardelor de ani. E totuși o chestiune de rațiune și nu de credință, din moment ce e un fenomen măsurabil și supus unor legi fizice. Sfântul Augustin în *De Genesi ad litteram libri duodecim*, în contextul în care discută despre Pământ, mișcările astrelor, pozițiile relative și mișcările lor, ciclurile anotimpurilor, eclipsele lunii și alte lucruri de natură științifică se adresează creștinilor care vorbesc fără să le cunoască:
 
@@ -102,7 +102,7 @@ Exemplu concret: meteoritul Juvinas, datat la 4,6 ± 0,07 miliarde de ani.
 
 Există și alte metode de datare, unele deja menționate. Ce e de reținut e că zerourile nu sunt adăugate accidental și când se vorbește de o vârstă de miliarde de ani a Pământului e așa pentru că măsurătorile celor mai vechi roci descoperite pe Terra asta spun iar măsurătorile rocilor de pe lună o confirmă, la fel cum și măsurătorile meteoriților (căzuți pe Pământ) o confirmă.
 
-### Premisa 2: Există mutații spontane la nivel biologic și acestea sunt aleatoare
+## Premisa 2: Există mutații spontane la nivel biologic și acestea sunt aleatoare
 
 {% include image.html url="/images/evolutionism/adn.jpg" description="ADN-ul are formă de helix și e format din perechi de nucleotide" width="175px" position="right" %}
 
@@ -120,15 +120,15 @@ Dacă ne-am plimba prin împrejurimi, am putea vedea două feluri de salamandre:
 
 De reținut ca premisă e că **mutațiile există și sunt aleatoare**. Iar asta implică faptul că anumite mutații, oricât de rare ar fi, pot aduce beneficii mutantului în condițiile fixate de ecosistemul în care se află. 
 
-##Argumentația
+# Argumentația
 
-### Definiție informală: Selecția naturală
+## Definiție informală: Selecția naturală
 
 Evoluționismul se bazează pe cei doi piloni, premisa că *Vârsta Terrei e de ordinul miliardelor și nu a miilor de ani* și premisa că *Există mutații la nivel biologic și acestea sunt aleatoare*. Conceptual, evoluționismul poate fi definit doar din aceste două premise: **dat fiind faptul că într-un organism oricât de primitiv sau complex se pot produce mutații și dat fiind faptul că au existat miliarde de ani în care să se fi produs mutații, există o posibilitate ca mutații benefice succesive să producă modificări semnificative în organism, astfel încât să se obțină în final un organism cu funcții sau abilități noi**. 
 
 Să ne imaginăm o insulă pe care putem găsi șopârle de culoare roșiatică ce mișună prin iarbă măruntă dar de culoare verde. Conform definiției de mai sus, în ecosistemul în care se află șopârla, un avantaj ar putea fi culoarea verde pentru a se camufla împotriva prădătorilor înaripați. De-a lungul timpului apar tot felul de modificări genetice în această specie de șopârle roșii, cele mai multe neoferind purtătorului vreun avantaj. Dar când mutația responsabilă pentru colorit verde se produce, descendenții primei șopârle verzi vor avea un foarte mare avantaj în fața șopârlelor roșii: camuflajul. Din acest moment șopârlele roșii vor scădea în număr pentru că vor fi cu precădere vânate de prădători iar cele verzi vor prospera.
 
-###1. Argument empiric: Organele și funcțiile viețuitoarelor fosilizate sunt tot mai complexe cu trecerea timpului
+## 1. Argument empiric: Organele și funcțiile viețuitoarelor fosilizate sunt tot mai complexe cu trecerea timpului
 
 Din prima premisă aflăm că vârsta Pământului e de ordinul miliardelor de ani și nu a miilor și că metodele de datare sunt justificate și precise. Pentru că metoda este corectă, datarea fosilelor este de asemenea corectă, astfel că avem de-a face cu bacterii fosilizate vechi de 3,5 miliarde de ani, versiuni primitive de pești de acum 530 milioane de ani, primi amfibieni acum 370 de milioane de ani, prime reptile acum 310-320 milioane de ani, primi dinozauri acum 230 de milioane de ani, prime păsări undeva în Jurassic ș.a.m.d. Istoria vieții pe Terra e una tumultoasă, scrâjelită de extincții în masă. Avem în muzee numeroase fosile de specii ce au apărut în diferite perioade de timp ca să dispară mai apoi, fapt incompatibil cu o Creație statică unde toate viețuitoarele apar deodată și evential dispar. **Argumentul se bazează pe faptul că vârsta fosilelor obținută prin datarea straturilor în care au fost găsite este în armonie cu complexitatea mai mare a organelor și funcțiilor dezvoltate de viețuitoarele apărute mai târziu în timp**. Câteva exemple simplificate de astfel de organe și funcții dezvoltate:
 
@@ -138,7 +138,7 @@ Din prima premisă aflăm că vârsta Pământului e de ordinul miliardelor de a
 - Primele reptile succed amfibienii în timp. Deși amfibienii au pășit pe uscat, nu puteau să se aventureze prea mult pentru că ouăle lor fără protecție nu pot supraviețui decât în apă. Reptilele însă au evoluat o coajă în jurul ouălor și astfel au cucerit uscatul.
 - Mamiferele și dinozaurii succed reptilele în timp. Deși reptilele au cucerit uscatul, membrele lor laterale ineficiente mersului pe distanțe mari au condus la schimbarea ce o vedem la mamifere și la dinozauri și anume membre sub corp și nu în lateral.
 
-###2. Argument empiric: Moștenirea genetică inutilă
+## 2. Argument empiric: Moștenirea genetică inutilă
 
 Noi înșine, adică oamenii, purtăm în noi vestigii ale strămoșilor noștri care nu ne mai folosesc la nimic: porțiuni de ADN inutil, apendicele, coccisul - care încă le servește maimuțelor drept loc de prindere al cozii, cea de-a treia pleoapă - care încă le servește păsărilor și reptilelor, mușchii erectori ai firelor de păr - care le folosesc animalelor cu păr pe tot corpul pentru a-și ridica părul cu scopul de a părea mai mari ș.a.m.d. Nervul laringeal, în om, e de 7 ori mai lung decât necesar pentru că înconjoară în mod inutil artera aortă ca mai apoi să se întoarcă până la laringe. Găsim în râuri subterane pești care au ochi ce nu le servesc la nimic. Fie că ne uităm la organele funcționale, fie la cele nefuncționale și inutile, vedem asemănări cât se poate de evidente cu animalele care ne înconjoară. **De ce am avea a 3-a pleoapă ca și reptilele dacă nu ne servește la nimic? De ce am avea mușchi pentru a ni se face „pielea găină” dacă sunt inutili? De ce șerpii și balenele au reminescențe ale unor membre? Există două răspunsuri posibile:**
 
@@ -147,21 +147,21 @@ Noi înșine, adică oamenii, purtăm în noi vestigii ale strămoșilor noștri
 
 De notat este că argumentul nu se bazează pe imperfecțiunile din natură, ale căror „grad de perfecțiune” ar putea fi subiectiv evaluat. Argumentul din moștenirea genetică inutilă se bazează pe obiectivitatea existenței continuităților dintre specii, chiar și la nivel de organe și funcții inutile. 
 
-##Întrebări frecvente ale creștinului sceptic la evoluție
+# Întrebări frecvente ale creștinului sceptic la evoluție
 
-###ÎF1: Cum se poate măsura \\(\tau_{1/2}\\) când acesta e de ordinul miliardelor de ani?
+## ÎF1: Cum se poate măsura \\(\tau_{1/2}\\) când acesta e de ordinul miliardelor de ani?
 
 Soluția la problemă e tot una matematică, dar e puțin mai avansată și include serii Taylor. O trimitere rapidă către [un document care explică metoda](http://darius.berghe.net/images/evolutionism/halflife.pdf) mă scutește de efort și îmi permite să mențin nivelul matematicii din articol la nivel de liceu.
 
-###ÎF2: Unde-s speciile de legătură?
+## ÎF2: Unde-s speciile de legătură?
 
 Întrebarea e în general prost pusă deoarece creștinul sceptic se așteaptă ca toate formele de viață intermediare să fi rămas în viață ceea ce nu e cazul. Pentru a răspunde totuși la întrebare, fac trimitere la o [listă de schelete umane](https://en.wikipedia.org/wiki/List_of_human_evolution_fossils) relevante pentru evoluție. Pentru toate celelalte tipuri de fosile, e suficientă o vizită la un muzeu de istorie naturală.
 
-###ÎF3: ...prin urmare, noi provenim din maimuță?
+## ÎF3: ...prin urmare, noi provenim din maimuță?
 
 Nu. Sundem descendenții unui strămoș comun omului și maimuțelor. E o diferență.
 
-###ÎF4: Dacă Evoluția există, de ce nu o vedem sub ochii noștri?
+## ÎF4: Dacă Evoluția există, de ce nu o vedem sub ochii noștri?
 
 În 1971, 5 perechi adulte din specia Podarcis sicula (șopârle) au fost mutate de pe insula Pod Kopište (0.09 km2) pe insula Pod Mrčaru (0.03 km2), ambele aparținând Croației. Deși pe insula pe care au fost mutate exista deja o specie de șopârle (Podarcis melisellensis), aceasta este acum extinctă în zonă. Teste de ADN mitocondrial făcute în 2008 [^1] arată că șopârlele care populează acum insula sunt de fapt urmașii celor 5 perechi aduse inițial. Ce s-a schimbat din 1971 până în 2008? Relativ multe:
 
@@ -171,12 +171,12 @@ Nu. Sundem descendenții unui strămoș comun omului și maimuțelor. E o difere
 - Probabil cel mai spectaculos, apariția unor valve cecale ce funcționează ca o cameră de fermentare a celulozei din plante care nu apare la specia originală de pe Pod Kopište.
 - Viteză de deplasare mai mică, ca urmare a absenței prădătorilor tereștri.
 
-##Lectură suplimentară:
+# Lectură suplimentară:
 1. G. Brent Dalrymple, The Age of the Earth, 1994
 2. Charles Darwin, The Voyage of Beagle, 1839 
 3. Charles Darwin, The Origin of Species, 1859
 4. Biblia - recitită și reconsiderată având miliardele de ani și selecția naturală în minte
 
-##Referințe
+# Referințe
 [^1]:Anthony Herrel, Katleen Huyghe, [...], and Duncan J. Irschick, Rapid large-scale evolutionary divergence in morphology and performance associated with exploitation of a different dietary resource, 2008
 [^2]:Kimura M., Evolutionary Rate at the Molecular Level, Nature 217:624-6, 1968

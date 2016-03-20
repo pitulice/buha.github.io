@@ -107,7 +107,6 @@ Now everything is installed and configured. Just type in the address bar of the 
 Or, you may just click on the Network shortcut in Nemo/Nautilus and follow the path.
 
 
-Results 
+## Results 
 
- 
-  Overall, I'm pretty happy with Samba, certainly happier than with NFS. 
+Overall, I'm pretty happy with Samba, certainly happier than with NFS. 
