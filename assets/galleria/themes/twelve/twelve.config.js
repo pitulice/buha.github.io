@@ -1,7 +1,8 @@
-	Galleria.loadTheme('/assets/galleria/themes/twelve/galleria.twelve.min.js'); 
+if ($(".galleria")[0]){
+	Galleria.loadTheme('/assets/galleria/themes/twelve/galleria.twelve.js'); 
   Galleria.configure({ 
 
-		variation: 'light', 
+		debug: true,
 		height: 0.706,
 		clicknext: true,
 
@@ -46,5 +47,6 @@
         showing_image: ""
     }*/
   });
+	console.log("Starting galeria");
 	Galleria.run('.galleria');
-
+}

@@ -1,3 +1,4 @@
+if ($(".galleria")[0]){
 	Galleria.loadTheme('/assets/galleria/themes/miniml/galleria.miniml.min.js'); 
   Galleria.configure({ 
 		// generic	 	
@@ -11,4 +12,4 @@
 		height: 0.23
   }); 
   Galleria.run('.galleria'); 
-
+}

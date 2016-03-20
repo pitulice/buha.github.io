@@ -2,7 +2,7 @@
 layout: post
 title: "Journal of a Deceptive Faith Healing Event"
 modified:
-categories: article
+categories: essai
 excerpt: On Damian Stayne's faith healing event in Cluj-Napoca, 20th April 2013
 tags: []
 image:
