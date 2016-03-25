@@ -3,7 +3,7 @@
 title:            dari.ws 
 locale:           en_GB
 url:              http://dari.ws
-port:							80
+port:		  				80
 
 
 # Jekyll configuration
@@ -30,7 +30,7 @@ kramdown:
 owner: 
   name: Darius Berghe
   avatar: 
-  bio: "Embedded software engineer, amateur photographer, avid art consumer, biking enthusiast, nature wanderer"
+  bio: "Embedded software engineer, amateur photographer, avid art consumer, biking enthusiast, ornitho geek, nature wanderer."
   email: darius.berghe@gmx.com
   disqus-shortname: dariusberghe
   twitter: #username
