@@ -2,7 +2,7 @@
 layout: post
 title: "Lucifer, bicicletul"
 modified:
-categories: foto
+categories: fotoreportaj
 excerpt: Lucifer, bicicletul cu țingalău și far de Elveția, pneuri de Cehoslovacia, jante și schimbător de Franța și distanțier cu reflector lateral pe care scrie „Zurich”, restaurat.
 tags: [bicicleta, vintage, restaurare, bike]
 comments: true

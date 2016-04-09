@@ -2,7 +2,7 @@
 layout: post
 title: "The Woodpecker Affair"
 modified:
-categories: foto
+categories: fotoreportaj
 excerpt: Woodpecker hits my window and gets a bit of love afterwards
 comments: true
 tags: ["bird", "woodpecker", "saved"]

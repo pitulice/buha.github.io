@@ -2,7 +2,7 @@
 layout: post
 title: "Camargue: culture and industry next to pink flamingo's nest"
 modified:
-categories: foto
+categories: fotoreportaj
 excerpt: Images from Arles, Saintes Maries de la Mer and Salin de Giraud, Camargue, Southern France 
 tags: ["arles", "saintes maries de la mer", "street", "flamingo"]
 comments: true
