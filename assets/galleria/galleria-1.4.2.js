@@ -2186,7 +2186,7 @@ Galleria = function() {
             lightbox.initialized = true;
 
             // create some elements to work with
-            var elems = 'overlay box content shadow title info close prevholder prev nextholder next counter image',
+            var elems = 'overlay box content shadow title info prevholder prev nextholder next counter image',
                 el = {},
                 op = self._options,
                 css = '',
@@ -2203,8 +2203,8 @@ Galleria = function() {
                     image:      abs+'top:10px;left:10px;right:10px;bottom:30px;overflow:hidden;display:block;',
                     prevholder: abs+'width:50%;top:0;bottom:40px;cursor:pointer;',
                     nextholder: abs+'width:50%;top:0;bottom:40px;right:-1px;cursor:pointer;',
-                    prev:       abs+'top:50%;margin-top:-20px;height:40px;width:30px;background:#fff;left:20px;display:none;text-align:center;color:#000;font:bold 16px/36px arial,sans-serif',
-                    next:       abs+'top:50%;margin-top:-20px;height:40px;width:30px;background:#fff;right:20px;left:auto;display:none;font:bold 16px/36px arial,sans-serif;text-align:center;color:#000',
+                    prev:       abs+'top:50%;margin-top:-20px;height:40px;width:30px;background:#fff;left:20px;display:none;text-align:center;color:#000;font:bold 16px/36px arial,sans-serif;opacity:0',
+                    next:       abs+'top:50%;margin-top:-20px;height:40px;width:30px;background:#fff;right:20px;left:auto;display:none;font:bold 16px/36px arial,sans-serif;text-align:center;color:#000;opacity:0',
                     title:      'float:left',
                     counter:    'float:right;margin-left:8px;'
                 },
@@ -2234,7 +2234,7 @@ Galleria = function() {
 
             css += '.galleria-'+prefix+'box.iframe .galleria-'+prefix+'prevholder,'+
                    '.galleria-'+prefix+'box.iframe .galleria-'+prefix+'nextholder{'+
-                   'width:100px;height:100px;top:50%;margin-top:-70px}';
+                   'width:40%;height:100%;top:1;margin-top:-70px}';
 
             Utils.insertStyleTag( css, 'galleria-lightbox' );
 
