@@ -3,7 +3,7 @@
 title:            dari.ws 
 locale:           en_GB
 url:              http://dari.ws
-port:		  				80
+port:		  				8080
 
 
 # Jekyll configuration
