@@ -3,7 +3,7 @@ layout: post
 title: "Familiale"
 modified:
 categories: galeria
-excerpt: Images from around *home* when it *home* meant Saint Martin d'Hères.
+excerpt: Images from around home, when home meant Saint Martin d'Hères.
 tags: []
 comments: false
 image:
