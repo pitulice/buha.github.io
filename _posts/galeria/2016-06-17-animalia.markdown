@@ -15,4 +15,5 @@ date: 2016-06-18
 	<img src="/images/animalia/Dryobates minor.jpg" data-title="Dryobates minor">
 	<img src="/images/animalia/Parus major.jpg" data-title="Parus major">
 	<img src="/images/animalia/Tetsudo graeca.jpg" data-title="Tetsudo graeca (Țestoasa Dobrogeană) encountered in the magical Măcin Mountains of Romania.">
+	<img src="/images/animalia/Pelicanus onocrotalus.jpg" data-title="Pelicanus onocrotalus">
 </div>
