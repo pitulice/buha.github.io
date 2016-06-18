@@ -8,7 +8,7 @@ tags: [still, life, photography]
 comments: false
 image:
   feature: 
-date: 2016-03-13
+date: 2016-06-17
 ---
 <div class="galleria">
 	<img src="/images/inanimate/0001.jpg" data-title="Limone di Sicilia">
