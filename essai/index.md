@@ -1,7 +1,7 @@
 ---
 layout: post-index
 title: 
-excerpt: "Articles on various topics such as philosophy, religion, cinema, literature, or life in general:"
+excerpt: "Articles on hot topics"
 categories: ["essai"]
 image: 
   feature: banner-article.jpg
