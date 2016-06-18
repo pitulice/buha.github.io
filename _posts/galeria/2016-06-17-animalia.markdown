@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Animate"
+title: "Animalia"
 modified:
 categories: galeria
-excerpt: Images of non-human beings.
+excerpt: Wildlife images.
 tags: []
 comments: false
 image:
@@ -11,5 +11,5 @@ image:
 date: 2016-06-18
 ---
 <div class="galleria">
-	<img src="/images/animate/Papilio machaon.jpg" data-title="Papilio machaon">
+	<img src="/images/animalia/Papilio machaon.jpg" data-title="Papilio machaon">
 </div>
