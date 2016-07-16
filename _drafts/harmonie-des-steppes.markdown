@@ -34,3 +34,9 @@ Khenmedekh Erdenetsetseg, Х. Эрдэнэцэцэг
 Pürevsüren Ösökhjargal, П. Өсөхжаргал
 
 
+1. Statement on the importance of authentic experiences with raw art such as folkloric music
+
+2. Feyman, tuvan/mongolian music overview
+3. French Alps, organisational stuff, getting there
+4. Concerts
+5. 
