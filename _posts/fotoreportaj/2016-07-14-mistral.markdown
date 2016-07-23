@@ -12,6 +12,6 @@ date: 2016-07-14
 ---
 <div class="video-container">
 <video width="640" height="320" controls="controls" preload="none">
-	<source src="https://drive.google.com/open?id=0B0QPdXqQuwO3RHZmYVhQdFREcFU" type="video/mp4">
+	<source src="{{site.url}}/images/mistral-beauduc.mp4" type="video/mp4">
 </video>
 </div>
