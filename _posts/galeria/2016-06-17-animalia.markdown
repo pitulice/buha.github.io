@@ -11,14 +11,14 @@ image:
 date: 2016-06-18
 ---
 <div class="galleria">
-	<img src="/images/animalia/Pyrrhocorax graculus I.jpg" data-title="Pyrrhocorax graculus">
-	<img src="/images/animalia/Pyrrhocorax graculus II.jpg" data-title="Pyrrhocorax graculus">
-	<img src="/images/animalia/Pyrrhocorax graculus III.jpg" data-title="Pyrrhocorax graculus">
-	<img src="/images/animalia/Papilio machaon.jpg" data-title="Papilio machaon">
-	<img src="/images/animalia/Motacilla flava.jpg" data-title="Motacilla flava">
-	<img src="/images/animalia/Dryobates minor.jpg" data-title="Dryobates minor">
-	<img src="/images/animalia/Parus major.jpg" data-title="Parus major">
-	<img src="/images/animalia/Periparus ater.jpg" data-title="Periparus ater">
-	<img src="/images/animalia/Tetsudo graeca.jpg" data-title="Tetsudo graeca (Țestoasa Dobrogeană) encountered in the magical Măcin Mountains of Romania.">
-	<img src="/images/animalia/Pelicanus onocrotalus.jpg" data-title="Pelicanus onocrotalus">
+	<img src="/images/animalia/Pyrrhocorax-graculus-I.jpg" data-title="Pyrrhocorax graculus">
+	<img src="/images/animalia/Pyrrhocorax-graculus-II.jpg" data-title="Pyrrhocorax graculus">
+	<img src="/images/animalia/Pyrrhocorax-graculus-III.jpg" data-title="Pyrrhocorax graculus">
+	<img src="/images/animalia/Papilio-machaon.jpg" data-title="Papilio machaon">
+	<img src="/images/animalia/Motacilla-flava.jpg" data-title="Motacilla flava">
+	<img src="/images/animalia/Dryobates-minor.jpg" data-title="Dryobates minor">
+	<img src="/images/animalia/Parus-major.jpg" data-title="Parus major">
+	<img src="/images/animalia/Periparus-ater.jpg" data-title="Periparus ater">
+	<img src="/images/animalia/Tetsudo-graeca.jpg" data-title="Tetsudo graeca (Țestoasa Dobrogeană) encountered in the magical Măcin Mountains of Romania.">
+	<img src="/images/animalia/Pelicanus-onocrotalus.jpg" data-title="Pelicanus onocrotalus">
 </div>
