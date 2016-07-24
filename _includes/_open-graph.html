@@ -17,6 +17,6 @@
 {% if page.excerpt %}<meta property="og:description" content="{{ page.excerpt | strip_html }}">{% endif %}
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 <meta property="og:site_name" content="{{ site.title }}">
-<ul>{% for file in site.static_files %}{% assign pattern = '/images' | append: page.id %}{% if file.path contains pattern %}
-	<li><meta property="og:image" content="{{ site.url }}{{ file.path | url_escape }}"></li>{% endif %}{% endfor %}
+<ul>{% for file in site.static_files %}{% if page.id %}{% assign pattern = '/images' | append: page.id %}{% if file.path contains pattern %}
+	<li><meta property="og:image" content="{{ site.url | append: file.path | url_encode }}"></li>{% endif %}{% endif %}{% endfor %}
 </ul>
