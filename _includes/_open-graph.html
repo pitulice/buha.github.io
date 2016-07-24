@@ -18,5 +18,5 @@
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 <meta property="og:site_name" content="{{ site.title }}">
 {% for file in site.static_files %}{% if page.id %}{% assign pattern = '/images' | append: page.id %}{% if file.path contains pattern %}
-<meta property="og:image" content="{{ site.url | append: file.path | url_encode }}">{% endif %}{% endif %}{% endfor %}
+<meta property="og:image" content="{{ site.url | append: file.path | url_escape }}">{% endif %}{% endif %}{% endfor %}
 
