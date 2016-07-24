@@ -18,7 +18,7 @@ date: '2016-07-23'
 	
    b. „Imperfect” predictibil e adevărul statistic: crezi că Darius o să întârzie la ora de religie pentru că Darius „mereu” întârzie. Soiul ăsta de credință e ceea ce ne scapă de efortul de-a verifica orice afirmație ce ne trece pe sub nas. Omul e unul dintre animalele sociale care au dezvoltat biologic suport pentru sentimente de încredere sau neîncredere față de semeni în funcție de acțiunile lor din trecut, obiceiurile lor etc.[^1][^2]
 
-2. Credința că ceva se poate întâmpla fără ca să se fi întâmplat vreodată în trecut deci pentru care nu există nici o descriere formală (**1a**) nici o repetiție statistică (**1b**). Exemplu: credința că există zâne, credința că există un monstru sub pat, credința că niște zei au creat Universul sau că îl vor distruge etc. 
+2. Credința că ceva se poate întâmpla fără ca să se fi întâmplat vreodată în trecut deci pentru care nu există nici o descriere formală (<strong>1a</strong>) nici o repetiție statistică (<strong>1b</strong>). Exemplu: credința că există zâne, credința că există un monstru sub pat, credința că niște zei au creat Universul sau că îl vor distruge etc. 
 
 Interesant e că orice afirmație de tip **2** poate sfârși ca afirmație de tip **1** dacă se îndeplinește una din condiții. 
 
