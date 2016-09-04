@@ -12,6 +12,7 @@ date: 2016-06-18
 ---
 <div class="galleria">
   <img src="/images/animalia/Ovis-aries.jpg" data-title="Ovis aries">
+  <img src="/images/animalia/Sus-scrofa-domesticus.jpg" data-title="Sus scrofa domesticus">
 	<img src="/images/animalia/Pyrrhocorax-graculus-I.jpg" data-title="Pyrrhocorax graculus">
 	<img src="/images/animalia/Pyrrhocorax-graculus-II.jpg" data-title="Pyrrhocorax graculus">
 	<img src="/images/animalia/Pyrrhocorax-graculus-III.jpg" data-title="Pyrrhocorax graculus">
