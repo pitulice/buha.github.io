@@ -11,10 +11,12 @@ image:
 date: 2016-06-18
 ---
 <div class="galleria">
+  <img src="/images/animalia/Ovis-aries.jpg" data-title="Ovis aries">
 	<img src="/images/animalia/Pyrrhocorax-graculus-I.jpg" data-title="Pyrrhocorax graculus">
 	<img src="/images/animalia/Pyrrhocorax-graculus-II.jpg" data-title="Pyrrhocorax graculus">
 	<img src="/images/animalia/Pyrrhocorax-graculus-III.jpg" data-title="Pyrrhocorax graculus">
 	<img src="/images/animalia/Papilio-machaon.jpg" data-title="Papilio machaon">
+	<img src="/images/animalia/Phoenicurus-ochruros.jpg" data-title="Phoenicurus ochruros">
 	<img src="/images/animalia/Motacilla-flava.jpg" data-title="Motacilla flava">
 	<img src="/images/animalia/Dryobates-minor.jpg" data-title="Dryobates minor">
 	<img src="/images/animalia/Parus-major.jpg" data-title="Parus major">
