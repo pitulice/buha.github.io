@@ -21,6 +21,7 @@ date: 2016-06-18
 	<img src="/images/animalia/Papilio-machaon.jpg" data-title="Papilio machaon">
 	<img src="/images/animalia/Phoenicurus-ochruros.jpg" data-title="Phoenicurus ochruros">
 	<img src="/images/animalia/Motacilla-flava.jpg" data-title="Motacilla flava">
+	<img src="/images/animalia/Dendrocopus-major.jpg" data-title="Dendrocopus major (juv.)">
 	<img src="/images/animalia/Dryobates-minor.jpg" data-title="Dryobates minor">
 	<img src="/images/animalia/Parus-major.jpg" data-title="Parus major">
 	<img src="/images/animalia/Periparus-ater.jpg" data-title="Periparus ater">

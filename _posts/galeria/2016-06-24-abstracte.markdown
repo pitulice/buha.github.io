@@ -11,6 +11,6 @@ image:
 date: 2016-06-24
 ---
 <div class="galleria">
-	<img src="/images/abstracte/Geometric-sunset-I.jpg" data-title="Geometric-sunset-I">
-	<img src="/images/abstracte/Geometric-sunset-II.jpg" data-title="Geometric-sunset-II">
+	<img src="/images/abstracte/Geometric-sunset-I.jpg" data-title="Geometric sunset I">
+	<img src="/images/abstracte/Geometric-sunset-II.jpg" data-title="Geometric sunset II">
 </div>
