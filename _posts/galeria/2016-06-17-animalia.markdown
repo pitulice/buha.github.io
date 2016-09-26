@@ -12,6 +12,7 @@ date: 2016-06-18
 ---
 <div class="galleria">
 	<img src="/images/animalia/Haliaeetus-leucocephalus.jpg" data-title="Haliaeetus leucocephalus">
+	<img src="/images/animalia/Vultur-gryphus.jpg" data-title="Vultur gryphus">
 	<img src="/images/animalia/Capra-ibex-I.jpg" data-title="Capra ibex">
 	<img src="/images/animalia/Capra-ibex-II.jpg" data-title="Capra ibex">
   	<img src="/images/animalia/Ovis-aries.jpg" data-title="Ovis aries">
