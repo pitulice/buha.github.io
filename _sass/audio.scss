@@ -1,11 +1,64 @@
 #audio-wrapper { width: 100%; margin: auto; }
-      
-ol { padding: 0px; margin: 0px; list-style: none inside; background: #333; color: #fff; width: 460px; font-size: 0.9em; }
-ol li { position: relative; margin: 0px; padding: 9px 2px 10px; }
-ol li a { color: #e0e0e0!important; font-family: sans-serif; line-height: 1.4; display: block; text-indent: 20px; text-decoration: none!important; padding: 0px 0px 0px 20px; }
-li.playing { color: #ffffff!important; text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5); }
-li.playing a { color: #ffffff!important; }
-li.playing:before { content: '♬'; width: 14px; height: 14px; padding: 3px; line-height: 14px; margin: 0px; position: absolute; left: 10px; top: 9px; color: #ffffff; font-size: 13px; text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5); }
+
+.audiojs {
+    display: table;
+    width: 100%;
+    height: 100%;
+
+    .play-pause, .scrubber, .time {
+        display: table-cell;
+        float: none;
+        height: 34px;
+        vertical-align: middle;
+    }
+
+    .play-pause {
+        padding: 0 6px;
+
+        > p {
+            margin: 0;
+            padding: 0;
+            height: 26px;
+        }
+    }
+
+    .scrubber {
+        margin: 0;
+        padding: 0;
+		//background: none repeat scroll 0 0 #5A5A5A;
+    	float: left;
+    	height: 14px;
+    	margin: 10px;
+    	overflow: hidden;
+    	position: relative;
+    	width: 90%; /* smaller width */
+
+        > div {
+            position: relative;
+            margin: 0;
+
+            &.progress {
+                z-index: 2;
+            }
+
+            &.loaded {
+                margin-top: -14px;
+                z-index: 1;
+            }
+        }
+    }
+
+    .time {
+		display: none;    
+	}
+
+}
+
+ol.audio  { padding: 0px; margin: 0px; list-style: none inside; background: #333; position: relative; }
+ol.audio li { position: relative; padding: 9px 2px 10px; }
+ol.audio li a { background: #333;  display: block; text-indent: 20px; text-decoration: none; padding: 0px 0px 0px 20px; }
+ol.audio li.playing a { color: #fff; }
+ol.audio li.playing:before { content: '♬'; width: 14px; height: 14px; padding: 3px; line-height: 14px; margin: 0px; position: absolute; left: 10px; top: 9px; color: #ffffff!important; font-size: 13px;  }
 
 @media screen and (max-device-width: 480px) {
 	#audio-wrapper { position: relative; left: -3%; }

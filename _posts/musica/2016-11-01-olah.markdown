@@ -5,17 +5,22 @@ modified:
 categories: musica
 excerpt:
 tags: []
-image:
-  feature:
+image: 
+  feature: olah/olah.png
 date: 2016-11-01T00:32:14+01:00
 ---
-   <div id="audio-wrapper">
+<section  class="toc">
+  <header>
+    <h3><i class="fa"></i> Audio</h3>
+  </header>
+<div id="drawer">
       <audio preload></audio>
-      <ol>
+      <ol class="audio">
         <li><a href="#" data-src="/musica/Olah-Mihai-Viteazu.ogg">Suita "Mihai Viteazul"</a></li>
         <li><a href="#" data-src="/musica/Olah-Simfonia-3.ogg">Simfonia 3</a></li>
 	<li><a href="#" data-src="/musica/Olah-Simfonia-4-I.ogg">Simfonia 4 (partea I)</a></li>
 	<li><a href="#" data-src="/musica/Olah-Simfonia-4-II.ogg">Simfonia 4 (partea II)</a></li>
 	<li><a href="#" data-src="/musica/Olah-Simfonia-4-III.ogg">Simfonia 4 (partea II)</a></li>
       </ol>
-    </div>
+</div>
+</section><!-- /#table-of-contents -->
