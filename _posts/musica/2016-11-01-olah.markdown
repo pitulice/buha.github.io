@@ -7,6 +7,7 @@ excerpt:
 tags: []
 image: 
   feature: olah/olah.png
+  credit: "Cornel Ţăranu, Myriam Marbe, Tiberiu Olah, Jacqueline Fontyn, Anatol Vieru, 1987 (tiberiuolah.ro)"
 date: 2016-11-01T00:32:14+01:00
 ---
 <section  class="toc">
