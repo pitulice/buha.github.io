@@ -9,7 +9,7 @@ image:
   feature:
 date: 2016-11-01T00:32:14+01:00
 ---
-   <div id="wrapper">
+   <div id="audio-wrapper">
       <audio preload></audio>
       <ol>
         <li><a href="#" data-src="/musica/Olah-Mihai-Viteazu.ogg">Suita "Mihai Viteazul"</a></li>

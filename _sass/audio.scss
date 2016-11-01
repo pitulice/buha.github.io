@@ -1,0 +1,13 @@
+#audio-wrapper { width: 100%; margin: auto; }
+      
+ol { padding: 0px; margin: 0px; list-style: none inside; background: #333; color: #fff; width: 460px; font-size: 0.9em; }
+ol li { position: relative; margin: 0px; padding: 9px 2px 10px; }
+ol li a { color: #e0e0e0!important; font-family: sans-serif; line-height: 1.4; display: block; text-indent: 20px; text-decoration: none!important; padding: 0px 0px 0px 20px; }
+li.playing { color: #ffffff!important; text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5); }
+li.playing a { color: #ffffff!important; }
+li.playing:before { content: '♬'; width: 14px; height: 14px; padding: 3px; line-height: 14px; margin: 0px; position: absolute; left: 10px; top: 9px; color: #ffffff; font-size: 13px; text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5); }
+
+@media screen and (max-device-width: 480px) {
+	#audio-wrapper { position: relative; left: -3%; }
+	#shortcuts { display: none; }
+}
