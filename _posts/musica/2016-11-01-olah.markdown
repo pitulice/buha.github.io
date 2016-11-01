@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Tiberiu Olah"
+modified:
+categories: musica
+excerpt:
+tags: []
+image:
+  feature:
+date: 2016-11-01T00:32:14+01:00
+---
+   <div id="wrapper">
+      <audio preload></audio>
+      <ol>
+        <li><a href="#" data-src="/musica/Olah-Mihai-Viteazu.ogg">Suita "Mihai Viteazul"</a></li>
+        <li><a href="#" data-src="/musica/Olah-Simfonia-3.ogg">Simfonia 3</a></li>
+	<li><a href="#" data-src="/musica/Olah-Simfonia-4-I.ogg">Simfonia 4 (partea I)</a></li>
+	<li><a href="#" data-src="/musica/Olah-Simfonia-4-II.ogg">Simfonia 4 (partea II)</a></li>
+	<li><a href="#" data-src="/musica/Olah-Simfonia-4-III.ogg">Simfonia 4 (partea II)</a></li>
+      </ol>
+    </div>
