@@ -3,7 +3,7 @@ layout: post
 title: "Tiberiu Olah"
 modified:
 categories: musica
-excerpt: Abstract
+excerpt: De la muzică de film la metamuzică 
 tags: []
 image: 
   feature: olah/olah.png
@@ -25,5 +25,29 @@ date: 2016-11-01T00:32:14+01:00
 		</ol>
 	</div>
 </section><!-- /#table-of-contents -->
-Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text, Placeholder text
+
+# Suita „Mihai Viteazu”
+2004, Bruxelles, Orchestra Națională Radio face niște înregistrări în cadrul unui turneu. Suita „Mihai Viteazu” de T. Olah, Concertul pentru vioară de F. Mendelssohn și Rapsodia nr. 1 de G. Enescu ajung să fie publicate într-un CD promoțional intitulat vag „The Romanian National Radio Orchestra”. Pe spate scrie „Free sample; not for sale”. Ei bine, tocma' ce am reușit să fac rost de acest disc rar pe care-l caut de vreo 10 ani.
+
+Ce e special la discul ăsta e Suita lui Olah. E o lucrare pe care tot românu o cunoaște, chiar fără să fie conștient de asta. Vorbim de fapt despre coloana sonoră a filmului cu același nume de Sergiu Nicolaescu. 
+
+Acum vreo 10 ani, un puștan cu numele meu, descărca de pe hub-uri DC++ muzică clasică, printre care și lucrări ale unor compozitori români. Pasiunea pentru clasică românească venise în urma descoperirii că Enescu e mai mult decât Rapsodiile și că muzica românească e mult mai vastă decât muzica lui Enescu. Am dat astfel de Tiberiu Olah și mi-a tare plăcut Suita pentru caracterul ei românesc, pentru scriitura modernă, plastică, cu o puternică capacitate de a evoca imaginea și nu în ultimul rând pentru structura de odisee. Așa de mult mi-a plăcut că mi-aduc aminte foarte clar cum fluieram bucăți plimbând câinele pe dealul din spatele casei.  
+
+Versiunea (s-o numim DC++) pe care am descărcat-o e o versiune obscură, fără niciun fel de metadate (interpreți, dată/loc înregistrare). De fapt, chiar și fișierele aveau nume Track 01, Track 02 etc. și a trebuit să reconstituiesc ordinea care după urechea mea nu era bună. 
+
+Știu că există o versiune dirijată de Bogdan Vodă, dar înregistrarea pe care am găsit-o e de o calitate lamentabilă.
+
+A 3-a versiune cu care am luat contact e cea de pe CD-ul de față, dirijată de Andreescu. E cea mai scurtă dintre toate. E cert că e o selecție dar booklet-ul discului nu specifică asta nicăieri. 
+
+Am încercat să reconstituiesc ordinea corectă a părților atribuindu-le numere (nu le cunosc numele, nu am partitura). Nu am reușit să am un consens, sunt toate diferite între ele, deci e posibil să chiar fie diferite versiuni ale partiturii. În orice caz, am inclus pentru audiție versiunea Andreescu, copie 1:1 după disc dar convertită în .ogg 128kbps pentru streaming.
+
+# Simfoniile 3, 4 
+Descărcate în aceași perioadă cu Suita prin aceleași mijloace, sunt probabil copii după Antologia Muzicii Simfonice Românești și din câte știu, singurele înregistrări disponibile. Aș da orice să am Antologia asta completă, sau măcar discurile cu Olah dar se pot găsi nicăieri. 
+
+Simfoniile 3 și 4 sunt în esență fragmente de Beethoven analizate printr-o reasamblare a lor într-o formă modernă. Fragmentarea textului original al Sonatei Lunii crează corelații atipice în Simfonia a 3-a, probabil cu rolul de a-i expune construcția, în forma în care Olah însuși o vede. În Simfonia 4, apar din nou citate muzicale, cel mai proeminent fiind cel din „Odă fericirii” a lui Beethoven ce apare la finalul simfoniei. Olah întoarce afirmația lui Beethoven într-o interogație ce evocă într-un fel celebra „Întrebare fără răspuns” a lui Charles Ives. 
+
+Nu cunosc intențiile lui Olah și din păcate nu am la dispoziție articole de-ale lui pentru a-l înțelege mai bine. Dar ce e extraordinar la simfoniile 3 și 4 e că dincolo de afirmațiile muzicale sofisticate pe care pare să le facă în aceste lucrări, muzica reușește să rămână accesibilă pentru un laic. 
+
+
+ 
 
