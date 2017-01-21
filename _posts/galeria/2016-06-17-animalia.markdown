@@ -11,6 +11,7 @@ image:
 date: 2016-06-18
 ---
 <div class="galleria">
+	<img src="/images/animalia/Erithacus-rubecula.jpg" data-title="Erithacus rubecula">
 	<img src="/images/animalia/Haliaeetus-leucocephalus.jpg" data-title="Haliaeetus leucocephalus">
 	<img src="/images/animalia/Vultur-gryphus.jpg" data-title="Vultur gryphus">
 	<img src="/images/animalia/Capra-ibex-I.jpg" data-title="Capra ibex">
