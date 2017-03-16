@@ -3,7 +3,7 @@ layout: post
 title: "Notes on how I hacked my eBook reader"
 modified:
 categories: machina
-excerpt: 
+excerpt: Don't try this at home
 tags: []
 comments: false
 share: false
