@@ -4,7 +4,8 @@ title: "The Woodpecker Affair"
 modified:
 categories: fotoreportaj
 excerpt: Woodpecker hits my window and gets a bit of love afterwards
-comments: true
+comments: false
+share: false
 tags: ["bird", "woodpecker", "saved"]
 image:
   feature:

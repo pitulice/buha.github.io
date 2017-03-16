@@ -5,6 +5,8 @@ modified:
 categories: machina
 excerpt: PID control demonstrator project during a 3-month internship abroad
 tags: ["ISTIA", "Angers", "ball and beam", "bertrand cottenceau", "PID", "Arduino"]
+comments: false
+share: false
 image:
   feature:
 date: '2013-08-05 21:12:00 +0200'

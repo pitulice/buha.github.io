@@ -5,6 +5,8 @@ modified:
 categories: machina
 excerpt: Guide to setting up NFS sharing between computers at home
 tags: []
+comments: false
+share: false
 image:
   feature:
 date: '2013-07-06 22:33:00 +0200'

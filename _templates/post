@@ -5,6 +5,8 @@ modified:
 categories: {{ dir }}
 excerpt:
 tags: []
+comments: false 
+share: false
 image:
   feature:
 ---

@@ -6,6 +6,7 @@ categories: galeria
 excerpt: Images from around home, when home meant Saint Martin d'Hères.
 tags: []
 comments: false
+share: false
 image:
   feature:
 date: 2016-05-14T01:17:30+02:00

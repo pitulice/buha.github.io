@@ -6,6 +6,7 @@ categories: galeria
 excerpt: Wildlife images.
 tags: []
 comments: false
+share: false
 image:
   feature:
 date: 2016-06-18

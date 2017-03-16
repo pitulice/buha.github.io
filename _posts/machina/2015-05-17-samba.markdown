@@ -5,6 +5,8 @@ modified:
 categories: machina
 excerpt: Guide to setting up a Samba file share between computers at home
 tags: []
+comments: false
+share: false
 image:
   feature:
 date: '2013-07-07 17:58:00 +0200'

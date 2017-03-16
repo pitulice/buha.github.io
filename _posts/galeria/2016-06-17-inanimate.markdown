@@ -6,6 +6,7 @@ categories: galeria
 excerpt: We're so used to common objects that we sometimes oversee their beauty.
 tags: [still, life, photography]
 comments: false
+share: false
 image:
   feature: 
 date: 2016-06-17

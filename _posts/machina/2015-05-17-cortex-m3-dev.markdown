@@ -5,6 +5,8 @@ modified:
 categories: machina
 excerpt: "Code::Blocks IDE, CodeSourcery compiler and Segger JLink debugger configuration"
 tags: ["ARM", "Cortex-m3", "Linux", "Code blocks", "Segger", "JLink", "debugger", "CodeSourcery"]
+comments: false
+share: false
 date: '2013-03-23 21:02:00 +0100'
 ---
 {% include _toc.html %}

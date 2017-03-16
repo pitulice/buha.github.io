@@ -5,6 +5,8 @@ modified:
 categories: musica
 excerpt: De la muzică de film la metamuzică 
 tags: []
+comments: false
+share: false
 image: 
   feature: olah/olah.png
   credit: "Cornel Ţăranu, Myriam Marbe, Tiberiu Olah, Jacqueline Fontyn, Anatol Vieru, 1987 (tiberiuolah.ro)"

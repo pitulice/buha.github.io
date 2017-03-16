@@ -3,9 +3,10 @@ layout: post
 title: "Evoluționismul argumentat creștinului sceptic la știință"
 modified:
 categories: essai
-excerpt: "Trecere în revistă a două premise fundamentale evoluționismului (vârsta de ordinul miliardelor de ani a Universului și spontaneitatea mutațiilor) și prezentarea a trei argumente pentru evoluționism" 
+excerpt: "Trecere în revistă a două premise fundamentale evoluționismului (vârsta de ordinul miliardelor de ani a Universului și spontaneitatea mutațiilor) și prezentarea a două argumente pentru evoluționism" 
 tags: ["evoluționism", "darwin", "biblia", "fosile", "vârsta pământului", "atheism", "ateism", "christian", "young earth", "creationism"]
-comments: true
+comments: false
+share: false
 image:
   feature: banner-evolutionism.jpg
   thumb: 

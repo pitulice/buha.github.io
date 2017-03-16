@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "Today I hacked my eBook reader"
+title: "Notes on how I hacked my eBook reader"
 modified:
 categories: machina
 excerpt: 
 tags: []
+comments: false
+share: false
 image:
   feature:
 date: 2017-01-15
@@ -12,7 +14,7 @@ date: 2017-01-15
 {% include _toc.html %}
 
 ## Problem definition
-I've got this itch to hack into devices that I own (or? :D). This time it's about my eBook reader, [4fff n618](https://en.wikipedia.org/wiki/4FFF_N618) which is it's codename. Commercially, it goes for a dozen names like bq Avant, OYO, Papyre 6.2, Prestigio PER5062B, Icarus Sense E650, Pandigital Novel and so on. Mine is branded Prestigio and I used bq firmwares on it. The bq firmware that I use below (versioned 2.5) is probably the most recent and the most locked-down of all. 
+I've got this itch to hack into devices that I own (or not!). This time it's about my eBook reader, [4fff n618](https://en.wikipedia.org/wiki/4FFF_N618) which is it's codename. Commercially, it goes for a dozen names like `bq Avant`, `OYO`, `Papyre 6.2`, `Prestigio PER5062B`, `Icarus Sense E650`, `Pandigital Novel` and so on. Mine is branded `Prestigio` and I used `bq` firmwares on it. The `bq` firmware that I use below (versioned 2.5) is probably the most recent and the most locked-down of all. 
 
 ## What's in the archive
 By unpacking the firmware [archive](http://booq.s3.amazonaws.com/bqAvant_OS2.5.zip) we end up with this:
@@ -59,7 +61,7 @@ Compessing back the archive with both `tar -cvf` and `find /path/to/modified/roo
 ## /linuxrc exploit using hex editor
 Unable to pack the `rootfs.img`, I go back to the original tarball. There is apparently no progress so far. Yet I realise that a tarball is just a simple archive with no CRC of it's own. That means that by modifying characters in it and keeping the filesize intact, one should be able to pass a modified tarball to the upgrade. 
 
-The easiest way is to search for `hotkey` string. Second result gets me to the line I want. Replace `#` with a ` `(whitespace). Replace both `109` with `108`, save, `cp` to SD card, power on with the USB cable plugged, the `Previous` button pressed and the `usbserial` kernel module loaded, and there it is:
+The easiest way is to search for `hotkey` string. Second result gets me to the line I want. Replace `#` with a whitespace. Replace both `109` with `108`, save, `cp` to SD card, power on with the USB cable plugged, the `Previous` button pressed and the `usbserial` kernel module loaded, and there it is:
 
     [25988.132471] usb 3-1: generic converter now attached to ttyUSB0
 
@@ -75,6 +77,8 @@ The easiest way is to search for `hotkey` string. Second result gets me to the l
     Linux Samsung 2.6.21.5-cfs-v19 #183 Wed Mar 2 05:37:47 CST 2011 armv5tejl unknown
     [root@Samsung ~]# 
 
+Voilà! We can do whatever we want from the root prompt.
+
 ## Initial tweaks
 `mount` informs me that the filesystem is mounted read-only. `mount` knows how to fix that:
 
@@ -87,7 +91,4 @@ Whenever the battery gets fully charged, an event is presumably triggered which 
     sed -i "s|SUSPEND_ON_AC=true|SUSPEND_ON_AC=false|g" /mnt/etc/apmd_proxy
 
 
-*To be continued*
-
-
-
+*To be continued when the itch gets to me again...*

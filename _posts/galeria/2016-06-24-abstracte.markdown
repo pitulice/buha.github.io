@@ -6,6 +6,7 @@ categories: galeria
 excerpt: A somewhat warped way of looking at reality.
 tags: []
 comments: false
+share: false
 image:
   feature:
 date: 2016-06-24

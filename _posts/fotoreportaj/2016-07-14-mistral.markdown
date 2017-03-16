@@ -6,6 +6,7 @@ categories: fotoreportaj
 excerpt: A video showing unusually early Mistral wind on Plage de Beauduc, Camargue.
 tags: ["mistral", "plage", "beauduc", "camargue", "beach"]
 comments: false
+share: false
 image:
   feature:
 date: 2016-07-14

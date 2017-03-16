@@ -5,7 +5,8 @@ modified:
 categories: fotoreportaj
 excerpt: Images from Arles, Saintes Maries de la Mer and Salin de Giraud, Camargue, Southern France 
 tags: ["arles", "saintes maries de la mer", "street", "flamingo"]
-comments: true
+comments: false
+share: false
 image:
   feature:
 date: 2015-05-21T20:47:30+02:00

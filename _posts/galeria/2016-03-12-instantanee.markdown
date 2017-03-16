@@ -6,6 +6,7 @@ categories: galeria
 excerpt: A collection of somewhat more dynamic photos, mostly street photography.
 tags: [tree, photography, gallery]
 comments: false
+share: false
 image:
   feature: 
 date: 2016-03-12
