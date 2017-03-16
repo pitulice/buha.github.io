@@ -3,7 +3,7 @@ layout: post
 title: "Inanimate"
 modified:
 categories: galeria
-excerpt: We're so used to common objects that we sometimes oversee their beauty.
+excerpt: We're so used to common objects that we easily oversee their beauty
 tags: [still, life, photography]
 comments: false
 share: false
