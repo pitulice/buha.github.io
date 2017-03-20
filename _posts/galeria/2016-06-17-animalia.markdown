@@ -33,4 +33,5 @@ date: 2016-06-18
 	<img src="/images/animalia/Loxia-curvirostra-I.jpg" data-title="Loxia curvirostra">
 	<img src="/images/animalia/Tetsudo-graeca.jpg" data-title="Tetsudo graeca (Țestoasa Dobrogeană) encountered in the magical Măcin Mountains of Romania.">
 	<img src="/images/animalia/Pelicanus-onocrotalus.jpg" data-title="Pelicanus onocrotalus">
+    <img src="/images/animalia/Bubo-bubo.jpg" data-title="Bubo bubo">
 </div>
