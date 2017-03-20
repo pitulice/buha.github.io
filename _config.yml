@@ -1,9 +1,9 @@
 # Site wide configuration
 
-title:            buha.github.io 
-locale:           en_GB
-url:              http://buha.github.io
-port:		  				8080
+title: buha.github.io 
+locale: en_GB
+url: http://buha.github.io
+port: 80
 
 
 # Jekyll configuration
@@ -23,17 +23,17 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  enable_coderay: false
 
 
 # Site owner
 owner: 
   name: Darius Berghe
   avatar: 
-  bio: "Embedded software engineer, amateur photographer, avid art consumer, biking enthusiast, ornitho geek, nature wanderer."
+  bio: "Embedded software engineer, amateur photographer, avid art consumer, biking enthusiast, ornitho geek, nature wanderer"
   email: darius.berghe@gmx.com
-  disqus-shortname: dariusberghe
-  twitter: #username
+  disqus-shortname: 
+  twitter: 
   facebook: dberghe
   google: 
     plus: 
@@ -42,7 +42,7 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: 
+  github: buha 
   stackoverflow: 
   linkedin: dariusberghe
   xing: 
