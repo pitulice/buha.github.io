@@ -15,7 +15,7 @@ date: 2017-01-15
 {% include _toc.html %}
 
 ## Problem definition
-I've got this itch to hack into devices that I own (or not!). This time it's about my eBook reader, [4fff n618](https://en.wikipedia.org/wiki/4FFF_N618) which is it's codename. Commercially, it goes for a dozen names like `bq Avant`, `OYO`, `Papyre 6.2`, `Prestigio PER5062B`, `Icarus Sense E650`, `Pandigital Novel` and so on. Mine is branded `Prestigio` and I used `bq` firmwares on it. The `bq` firmware that I use below (versioned 2.5) is probably the most recent and the most locked-down of all. 
+I've got this itch to hack into devices that I own (or not!). This time it's about my eBook reader, codenamed [4fff n618](https://en.wikipedia.org/wiki/4FFF_N618). Commercially, it goes for a dozen names like `bq Avant`, `OYO`, `Papyre 6.2`, `Prestigio PER5062B`, `Icarus Sense E650`, `Pandigital Novel` and so on. Mine is branded `Prestigio` and I used `bq` firmwares on it. The `bq` firmware that I use below (versioned 2.5) is probably the most recent and the most locked-down of all. 
 
 ## What's in the archive
 By unpacking the firmware [archive](http://booq.s3.amazonaws.com/bqAvant_OS2.5.zip) we end up with this:
