@@ -34,4 +34,6 @@ date: 2016-06-18
 	<img src="/images/animalia/Tetsudo-graeca.jpg" data-title="Tetsudo graeca (Țestoasa Dobrogeană) encountered in the magical Măcin Mountains of Romania.">
 	<img src="/images/animalia/Pelicanus-onocrotalus.jpg" data-title="Pelicanus onocrotalus">
     <img src="/images/animalia/Bubo-bubo.jpg" data-title="Bubo bubo">
+    <img src="/images/animalia/Anas-platyrhynchos.jpg" data-title="Anas-platyrhynchos">
+    <img src="/images/animalia/Troglodytes-troglodytes.jpg" data-title="Troglodytes troglodytes">
 </div>
