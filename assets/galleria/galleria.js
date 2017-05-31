@@ -1,9 +1,10 @@
 /**
- * Galleria v 1.4.2 2014-08-07
+ * Galleria v1.4.7 2016-09-17
  * http://galleria.io
  *
+ * Copyright (c) 2010 - 2016 worse is better UG
  * Licensed under the MIT license
- * https://raw.github.com/aino/galleria/master/LICENSE
+ * https://raw.github.com/worseisbetter/galleria/master/LICENSE
  *
  */
 
@@ -20,13 +21,13 @@ var doc    = window.document,
     protoArray = Array.prototype,
 
 // internal constants
-    VERSION = 1.41,
+    VERSION = 1.47,
     DEBUG = true,
     TIMEOUT = 30000,
     DUMMY = false,
     NAV = navigator.userAgent.toLowerCase(),
     HASH = window.location.hash.replace(/#\//, ''),
-    PROT = window.location.protocol,
+    PROT = window.location.protocol == "file:" ? "http:" : window.location.protocol,
     M = Math,
     F = function(){},
     FALSE = function() { return false; },
@@ -117,25 +118,18 @@ var doc    = window.document,
         youtube: {
             reg: /https?:\/\/(?:[a-zA_Z]{2,3}.)?(?:youtube\.com\/watch\?)((?:[\w\d\-\_\=]+&amp;(?:amp;)?)*v(?:&lt;[A-Z]+&gt;)?=([0-9a-zA-Z\-\_]+))/i,
             embed: function() {
-                return 'http://www.youtube.com/embed/' + this.id;
+                return PROT + '//www.youtube.com/embed/' + this.id;
             },
-            getUrl: function() {
-                return PROT + '//gdata.youtube.com/feeds/api/videos/' + this.id + '?v=2&alt=json-in-script&callback=?';
+            get_thumb: function( data ) {
+                return PROT + '//img.youtube.com/vi/'+this.id+'/default.jpg';
             },
-            get_thumb: function(data) {
-                return data.entry.media$group.media$thumbnail[2].url;
-            },
-            get_image: function(data) {
-                if ( data.entry.yt$hd ) {
-                    return PROT + '//img.youtube.com/vi/'+this.id+'/maxresdefault.jpg';
-                }
-                return data.entry.media$group.media$thumbnail[3].url;
-            }
+            get_image: function( data ) {
+                return PROT + '//img.youtube.com/vi/'+this.id+'/hqdefault.jpg';            }
         },
         vimeo: {
             reg: /https?:\/\/(?:www\.)?(vimeo\.com)\/(?:hd#)?([0-9]+)/i,
             embed: function() {
-                return 'http://player.vimeo.com/video/' + this.id;
+                return PROT + '//player.vimeo.com/video/' + this.id;
             },
             getUrl: function() {
                 return PROT + '//vimeo.com/api/v2/video/' + this.id + '.json?callback=?';
@@ -182,13 +176,19 @@ var doc    = window.document,
 
         $.extend( this, _video[type] );
 
-        $.getJSON( this.getUrl(), function(data) {
+        _videoThumbs = function(data) {
             self.data = data;
             $.each( self.readys, function( i, fn ) {
                 fn( self.data );
             });
             self.readys = [];
-        });
+        };
+
+        if ( this.hasOwnProperty('getUrl') ) {
+            $.getJSON( this.getUrl(), _videoThumbs);
+        } else {
+            window.setTimeout(_videoThumbs, 400);
+        }
 
         this.getMedia = function( type, callback, fail ) {
             fail = fail || F;
@@ -869,7 +869,7 @@ var doc    = window.document,
 
                     Utils.wait({
                         until: function() {
-                            return $loader.height() == 1;
+                            return $loader.height() > 0;
                         },
                         success: function() {
                             $loader.remove();
@@ -1141,7 +1141,7 @@ $win.on( 'orientationchange', function() {
 
     @example var gallery = new Galleria();
 
-    @author http://aino.se
+    @author http://wib.io
 
     @requires jQuery
 
@@ -2186,7 +2186,7 @@ Galleria = function() {
             lightbox.initialized = true;
 
             // create some elements to work with
-            var elems = 'overlay box content shadow title info prevholder prev nextholder next counter image',
+            var elems = 'overlay box content shadow title info close prevholder prev nextholder next counter image',
                 el = {},
                 op = self._options,
                 css = '',
@@ -2203,8 +2203,8 @@ Galleria = function() {
                     image:      abs+'top:10px;left:10px;right:10px;bottom:30px;overflow:hidden;display:block;',
                     prevholder: abs+'width:50%;top:0;bottom:40px;cursor:pointer;',
                     nextholder: abs+'width:50%;top:0;bottom:40px;right:-1px;cursor:pointer;',
-                    prev:       abs+'top:50%;margin-top:-20px;height:40px;width:30px;background:#fff;left:20px;display:none;text-align:center;color:#000;font:bold 16px/36px arial,sans-serif;opacity:0',
-                    next:       abs+'top:50%;margin-top:-20px;height:40px;width:30px;background:#fff;right:20px;left:auto;display:none;font:bold 16px/36px arial,sans-serif;text-align:center;color:#000;opacity:0',
+                    prev:       abs+'top:50%;margin-top:-20px;height:40px;width:30px;background:#fff;left:20px;display:none;text-align:center;color:#000;font:bold 16px/36px arial,sans-serif',
+                    next:       abs+'top:50%;margin-top:-20px;height:40px;width:30px;background:#fff;right:20px;left:auto;display:none;font:bold 16px/36px arial,sans-serif;text-align:center;color:#000',
                     title:      'float:left',
                     counter:    'float:right;margin-left:8px;'
                 },
@@ -2234,7 +2234,7 @@ Galleria = function() {
 
             css += '.galleria-'+prefix+'box.iframe .galleria-'+prefix+'prevholder,'+
                    '.galleria-'+prefix+'box.iframe .galleria-'+prefix+'nextholder{'+
-                   'width:40%;height:100%;top:1;margin-top:-70px}';
+                   'width:100px;height:100px;top:50%;margin-top:-70px}';
 
             Utils.insertStyleTag( css, 'galleria-lightbox' );
 
@@ -4023,7 +4023,7 @@ Galleria.prototype = {
         this.clearTimer();
         Utils.removeFromArray( _instances, this );
         Utils.removeFromArray( _galleries, this );
-        if ( Galleria._waiters !== undefined && Galleria._waiters.length ) {
+        if ( Galleria._waiters.length ) {
             $.each( Galleria._waiters, function( i, w ) {
                 if ( w ) window.clearTimeout( w );
             });
@@ -5690,7 +5690,7 @@ Galleria.addTheme = function( theme ) {
     }
 
     var css = false,
-        reg;
+        reg, reg2;
 
     if ( typeof theme.css === 'string' ) {
 
@@ -5724,8 +5724,8 @@ Galleria.addTheme = function( theme ) {
                     $('script').each(function (i, script) {
                         // look for the theme script
                         reg = new RegExp('galleria\\.' + theme.name.toLowerCase() + '\\.');
-                        if (reg.test(script.src)) {
-
+                        reg2 = new RegExp('galleria\\.io\\/theme\\/' + theme.name.toLowerCase() + '\\/(\\d*\\.*)?(\\d*\\.*)?(\\d*\\/)?js');
+                        if (reg.test(script.src) || reg2.test(script.src)) {
                             // we have a match
                             css = script.src.replace(/[^\/]*$/, '') + theme.css;
 
