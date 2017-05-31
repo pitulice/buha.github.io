@@ -2,8 +2,8 @@
 
 title: buha.github.io 
 locale: en_GB
-url: http://buha.github.io
-port: 80
+url: http://192.168.1.1:8180
+port: 8180
 
 
 # Jekyll configuration
