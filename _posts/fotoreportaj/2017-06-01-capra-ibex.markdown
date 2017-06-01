@@ -96,7 +96,7 @@ Le matin je suis réveillé vers 5:30 par un traquet qui se pose soit sur la ten
     <img src="/images/capra-ibex/0046.jpg" data-title="Jeunes en combat ludique"/>
     <img src="/images/capra-ibex/0047.jpg" data-title="Jeunes sub-adultes en combat plus sérieux mais toujours ludique"/>
     <img src="/images/capra-ibex/0048a.jpg" data-title="Invitation au combat chez les jeunes mâles"/>
-    <img src="/images/capra-ibex/0048b.jpg" data-title="Je pense que la petite est une femelle parce-que elle n'a pas répondu a la provocation"/>
+    <img src="/images/capra-ibex/0048b.jpg" data-title=""/>
     <img src="/images/capra-ibex/0049.jpg" data-title="Bisous I"/>
     <img src="/images/capra-ibex/0050.jpg" data-title="Bisous II"/>
     <img src="/images/capra-ibex/0051.jpg" data-title="Portrait d'un mâle"/>
