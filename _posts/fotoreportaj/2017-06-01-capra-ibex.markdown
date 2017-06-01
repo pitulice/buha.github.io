@@ -92,11 +92,11 @@ Le matin je suis réveillé vers 5:30 par un traquet qui se pose soit sur la ten
     <img src="/images/capra-ibex/0042.jpg" data-title="Portrait de jeune II"/>
     <img src="/images/capra-ibex/0041.jpg" data-title="Jeune en train de gratter ses cornes"/>
     <img src="/images/capra-ibex/0044.jpg" data-title="Les adultes font la sieste"/>
-    <img src="/images/capra-ibex/0045.jpg" data-title="Jeunes en train de s'amuser comme de vrai chèvres"/>
+    <img src="/images/capra-ibex/0045.jpg" data-title="Jeunes en train de s'amuser comme des vrais chèvres"/>
     <img src="/images/capra-ibex/0046.jpg" data-title="Jeunes en combat ludique"/>
     <img src="/images/capra-ibex/0047.jpg" data-title="Jeunes sub-adultes en combat plus sérieux mais toujours ludique"/>
     <img src="/images/capra-ibex/0048a.jpg" data-title="Invitation au combat chez les jeunes mâles"/>
-    <img src="/images/capra-ibex/0048b.jpg" data-title="Je pense que la petite est un femelle parce-que elle n'a pas répondu a la provocation"/>
+    <img src="/images/capra-ibex/0048b.jpg" data-title="Je pense que la petite est une femelle parce-que elle n'a pas répondu a la provocation"/>
     <img src="/images/capra-ibex/0049.jpg" data-title="Bisous I"/>
     <img src="/images/capra-ibex/0050.jpg" data-title="Bisous II"/>
     <img src="/images/capra-ibex/0051.jpg" data-title="Portrait d'un mâle"/>
