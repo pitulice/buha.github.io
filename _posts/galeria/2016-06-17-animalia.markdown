@@ -36,4 +36,5 @@ date: 2016-06-18
     <img src="/images/animalia/Bubo-bubo.jpg" data-title="Bubo bubo">
     <img src="/images/animalia/Anas-platyrhynchos.jpg" data-title="Anas-platyrhynchos">
     <img src="/images/animalia/Troglodytes-troglodytes.jpg" data-title="Troglodytes troglodytes">
+    <img src="/images/animalia/Paser-domesticus.jpg" data-title="Paser domesticus">
 </div>
