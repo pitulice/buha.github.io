@@ -12,6 +12,9 @@ image:
 date: 2016-06-18
 ---
 <div class="galleria">
+    <img src="/images/animalia/Castor-fiber-I.jpg" data-title="Castor fiber">
+    <img src="/images/animalia/Ondatra-zibethicus-I.jpg" data-title="Ondatra zibethicus">
+    <img src="/images/animalia/Ondatra-zibethicus-II.jpg" data-title="Ondatra zibethicus">
     <img src="/images/animalia/Serinus-serinus.jpg" data-title="Serinus serinus">
 	<img src="/images/animalia/Erithacus-rubecula.jpg" data-title="Erithacus rubecula">
 	<img src="/images/animalia/Haliaeetus-leucocephalus.jpg" data-title="Haliaeetus leucocephalus">
