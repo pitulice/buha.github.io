@@ -1,0 +1,64 @@
+---
+layout: post
+title: Mouflon de Chartreuse
+modified:
+categories: fotoreportaj
+excerpt: Photos voyage autour de la Grande Sure
+tags: []
+comments: false 
+share: false
+image: 
+  feature: mouflon/banner.jpg
+date: 2017-07-27T20:47:30+02:00
+---
+
+<div class="galleria">
+    <img src="/images/mouflon/47.jpg" data-title=""/>
+    <img src="/images/mouflon/33.jpg" data-title=""/>
+    <img src="/images/mouflon/28.jpg" data-title="Mouflon, contre la valée du Grésivaudan et Belledonne"/>
+    <img src="/images/mouflon/29.jpg" data-title=""/>
+    <img src="/images/mouflon/30.jpg" data-title=""/>
+    <img src="/images/mouflon/31.jpg" data-title="Le mouflon aime bien montrer son dos et s'enfuir"/>
+    <img src="/images/mouflon/32.jpg" data-title=""/>
+    <img src="/images/mouflon/38.jpg" data-title="Le male dominant, un male avec une coloration atypique et une femelle"/>
+    <img src="/images/mouflon/39.jpg" data-title=""/>
+    <img src="/images/mouflon/41.jpg" data-title=""/>
+    <img src="/images/mouflon/42.jpg" data-title=""/>
+    <img src="/images/mouflon/43.jpg" data-title="Flehmen"/>
+    <img src="/images/mouflon/44.jpg" data-title=""/>
+    <img src="/images/mouflon/45.jpg" data-title="Les femelles du mouflon sont très sensibles au moindre bruit et sonnent l'alarme"/>
+    <img src="/images/mouflon/46.jpg" data-title=""/>
+</div>
+<br/>
+<div class="galleria">
+    <img src="/images/mouflon/01.jpg" data-title="Depart de Pommiers"/>
+    <img src="/images/mouflon/02.jpg" data-title=""/>
+    <img src="/images/mouflon/03.jpg" data-title=""/>
+    <img src="/images/mouflon/04.jpg" data-title=""/>
+    <img src="/images/mouflon/05.jpg" data-title=""/>
+    <img src="/images/mouflon/06.jpg" data-title=""/>
+    <img src="/images/mouflon/07.jpg" data-title=""/>
+    <img src="/images/mouflon/08.jpg" data-title="Fosiles"/>
+    <img src="/images/mouflon/09.jpg" data-title=""/>
+    <img src="/images/mouflon/10.jpg" data-title=""/>
+    <img src="/images/mouflon/11.jpg" data-title=""/>
+    <img src="/images/mouflon/12.jpg" data-title="Refuge d'Hurtières avec la Grande Sure en plan secondaire"/>
+    <img src="/images/mouflon/13.jpg" data-title=""/>
+    <img src="/images/mouflon/14.jpg" data-title="Refuge des Bannettes"/>
+    <img src="/images/mouflon/15.jpg" data-title=""/>
+    <img src="/images/mouflon/16.jpg" data-title="Col d'Hurtières"/>
+    <img src="/images/mouflon/17.jpg" data-title="Les habitants permanents du col"/>
+    <img src="/images/mouflon/35.jpg" data-title=""/>
+    <img src="/images/mouflon/18.jpg" data-title="Soirée magique avec une belle lumière, vaches et cloches"/>
+    <img src="/images/mouflon/19.jpg" data-title=""/>
+    <img src="/images/mouflon/20.jpg" data-title=""/>
+    <img src="/images/mouflon/21.jpg" data-title=""/>
+    <img src="/images/mouflon/22.jpg" data-title=""/>
+    <img src="/images/mouflon/23.jpg" data-title=""/>
+    <img src="/images/mouflon/24.jpg" data-title=""/>
+    <img src="/images/mouflon/25.jpg" data-title=""/>
+    <img src="/images/mouflon/26.jpg" data-title=""/>
+    <img src="/images/mouflon/40.jpg" data-title=""/>
+    <img src="/images/mouflon/34.jpg" data-title=""/>
+    <img src="/images/mouflon/27.jpg" data-title="Bébé marmotte et une fleur"/>
+</div>
