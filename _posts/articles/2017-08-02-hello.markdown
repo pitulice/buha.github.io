@@ -1,0 +1,19 @@
+---
+layout: post
+title: Hello
+modified:
+categories: essai
+excerpt: Hi
+tags: []
+comments: false 
+share: false
+image:
+  feature:
+date: 2017-08-02T14:44:31+02:00
+---
+
+# This is my first post
+
+And I'm trying **hard** to figure *just how* to use ~~Markup~~Markdown.
+
+Luckily there is [this guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) available.
