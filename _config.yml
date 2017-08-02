@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: dari.bz
+title: becca.re
 locale: en_GB
-url: http://dari.bz
+url: http://pitulice.github.io
 port: 80
 
 
@@ -30,11 +30,11 @@ kramdown:
 owner: 
   name: Darius Berghe
   avatar: 
-  bio: "Embedded software engineer, amateur photographer, avid art consumer, biking enthusiast, ornitho geek, nature wanderer"
-  email: darius.berghe@gmx.com
+  bio: "Hi, you're viewing my website"
+  email: rebecca.berghe@gmx.com
   disqus-shortname: 
   twitter: 
-  facebook: dberghe
+  facebook: rebeccaruthberghe
   google: 
     plus: 
     analytics: 
@@ -44,7 +44,7 @@ owner:
   bing-verify: 
   github: buha 
   stackoverflow: 
-  linkedin: dariusberghe
+  linkedin: rebeccaberghe
   xing: 
   instagram: 
   lastfm: 
