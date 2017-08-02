@@ -2,7 +2,7 @@
 layout: post
 title: Hello
 modified:
-categories: essai
+categories: articles
 excerpt: Hi
 tags: []
 comments: false 
